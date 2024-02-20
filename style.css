@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-bottom: 100px;
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.281)),url(./resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color: white;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 85px;
+}
+
+.p-title{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.newYear{
+    text-align: center;
+}
+
+.section-title h1{
+    font-size: 85px;
+    color: red;
+}
+
+.section-title p{
+    font-size: 20px;
+    color: red;
+    font-style: bold;
+}
+
+.section-title h2{
+    font-size: 40px;
+}
+
+.newYear img{
+    width: auto;
+}
+
+.party{
+    background: linear-gradient(90deg, rgba(0,0,0,0.7),rgba(0, 0, 0, 0.185)),url(./resources/Vectorrr.png);
+    border-radius: 16px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.party-title{
+    width: 50%;
+    color: white;
+}
+
+.party-title h1{
+    font-size: 85px;
+}
+
+.party-title p{
+    font-size: 20px;
+}
+
+.party button, a{
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: 0;
+}
+
+.address{
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 255, 255, 0.7));
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address-title span{
+    color: red;
+    font-size: 30px
+}
+.address-title h3{
+    font-size: 30px;
+}
+
+.address-title button{
+    border: 0;
+    background: red;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.offer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.offer-img{
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.offer-title{
+    width: 30%;
+}
+
+.offer-title h3{
+    font-size: 30px;
+    font-weight: 100;
+    color: red;
+}
+
+.offer-title h1{
+    font-size: 60px;
+}
+
+.offer-title p{
+    color: #07021160;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.offer-date{
+    width: 30%;
+}
+
+.offer-date p{
+    color: #07021160;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.offer-date h1{
+    font-size: 60px;
+    color: red;
+}
+
+.portfolio-title h3{
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(0, 153, 255);
+}
+
+.portfolio-title h1{
+    font-size: 60px;
+    line-height: 0;
+}
+
+.portfolio-title p{
+    color: #07021160;
+    font-size: 22px;
+    font-style: normal;
+    width: 65%;
+}
+
+.images img{
+    margin: 6px;
+    transition: .5s;
+}
+
+.images img:hover{
+    transform: scale(1.1);
+}
+
+.subscription{
+    text-align: center;
+    background: #ff000007;
+    padding: 50px 0px;
+    border-radius: 16px;
+}
+
+.subscription-title h1{
+    font-size: 60px;
+    line-height: 0;
+}
+
+.subscription-title p{
+    color: #07021160;
+    font-size: 22px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.subscription-title input{
+    border: 0;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.subscription-title button{
+    margin-left: -14px;
+    padding: 23px 30px;
+    border: 0;
+    background: red;
+    color: white;
+    font-size: 14px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+footer{
+    padding: 50px 0px;
+    background-color: black;
+    color: white;
+}
+
+.hrcolor{
+    border:  1px solid rgba(255, 255, 255, 0.151);
+}
+
+.footer-border{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.footer-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-title h3{
+    width: 20%;
+    font-weight: 500;
+}
+
+.footer-icon {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
